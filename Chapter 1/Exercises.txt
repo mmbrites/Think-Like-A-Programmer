@@ -1,0 +1,25 @@
+1-1 
+Start with the most constrained 3x3 square, if possible, and go from there to the next. If there are ties, choose the 3x3 square with the most line and column constraints.
+There will most likely be times where you cannot finish a 3x3 square due to ambiguity. In those cases, go to the next most constrained 3x3 square.
+
+Medium Difficulty Sudoku Time: 10:52; Mistakes: 1/3; (No Annotations)
+
+1-2
+It is considerably harder since the order between image sections is harder to grasp and track when sliding the sections. Furthermore, the difficulty can be adjustable depending on the image contents. An homogeneous image is harder than a more heterogeneous image where "concepts" are more or less divided in the image sections.
+Consequently, it is harder to apply the "train" method since you need to "sequence" images first (adds an additional step).
+
+1-3
+The train "method" or strategy clearly seems to be the best strategy, at least, for the sliding tile puzzles I have played (3x3 and 4x4). However there are many times where I found myself ending a line in the reverse order, and therefore, I designed a strategy to get out of those "sticky situations". It consists on breaking the sequence and attempt to find a big "train", in 3x3 the train should be 8 tiles and in 4x4 it should be 15 tiles.
+Additionally, I really think the biggest trick in this game is patience. You will find the train you are looking for if you really pay attention to the surroundings.
+
+1-4
+Sam Lloyd's Trolley Puzzle -> This problem was pretty easy to solve for me and it does not strike me as easy to even simplify it. The wording is clear, so not much to change there. There is one constraint that can be taken off that would make the problem easier and would still relate to the original problem - if Charley does not have limited resources and can take the car ride whenever.
+
+Sam Lloyd's Guess the Boy's Age Puzzle -> This problem had more intricate wording and was longer. I would say there is very little that could be weeded out since the proper problem matter is in itself supposed to be slightly confusing if you are not writing down the relationships between the individuals ages. Regarding the removal of constraints, I would say that you could just ignore the last paragraph and assign a random number to 2nd boy's age (you could also ignore that paragraph and assign a random number to the 2nd girl's age).
+
+1-5
+Crosswords
+I tried crosswords in the portuguese language since that is my mother tongue. I am split between going for the words that give more information to other words by filling those common spaces, and going for words that you know right away to fill you with confidence.
+
+Jumble
+I actually have an idea for this game. It would be possible to just keep on iterating letter combinations until we find a word that is on the dictionary, but this process could be made efficient if we know which letters never (or rarely) appear adjacent to one another. 

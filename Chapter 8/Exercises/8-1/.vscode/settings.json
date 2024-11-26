@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "list": "cpp",
+        "string_view": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "format": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "span": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "text_encoding": "cpp",
+        "iostream": "cpp"
+    }
+}
